@@ -31,8 +31,6 @@ public class Main {
     }
     @Test
     public void epexCard() throws InterruptedException {
-
-        Thread.sleep(5000);
         WebElement viewCard = driver.findElement(By.xpath("//*[@class='productSelector_category_business']"));
         Assert.assertTrue(viewCard.isDisplayed());
         viewCard.click();
